@@ -18,7 +18,12 @@ Add ESP32 to Arduino IDE To work with ESP32 variants, we need to add the boards 
 
 Open the Arduino IDE
 Go to File | Preferences  In the Additional Boards Manager URLs field, add the following 2 URLS separated with a comma:  https://dl.espressif.com/dl/package_esp32_index.json,  http://arduino.esp8266.com/stable/package_esp8266com_index.json
- Click OK 3. Go to Tools | Board | Boards Manager  In the Filter your search bar, enter ESP32  Select esp32 by Espressif Systems and click Install  Once installed, click Close 4. Go to Tools | Board | ESP32 Arduino and select ESP32 Wrover Module
+ Click OK
+3. Go to Tools | Board | Boards Manager 
+4.  In the Filter your search bar, enter ESP32 
+5.  Select esp32 by Espressif Systems and click Install 
+6.  Once installed, click Close 
+7.   Go to Tools | Board | ESP32 Arduino and select ESP32 Wrover Module
 
  Connect the Uno to the ESP32 Using jumpers or other temporary wiring, create the diagram as shown below to connect the ESP32CAM to the Arduino Uno for programming.
 
